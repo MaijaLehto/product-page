@@ -23,7 +23,7 @@ img {
 }
 
 .wrapper {
-  max-width: 1400px;
+  max-width: 90%;
   margin: 0 auto;
 }
 
@@ -53,7 +53,7 @@ header nav ul li a:focus {
 
 .titleline {
   display: flex;
-
+  align-items: center;
   justify-content: space-between;
 }
 
@@ -70,6 +70,7 @@ h2 {
   text-decoration: none;
   padding: 8px;
   justify-content: center;
+  display: inline-block;
 }
 
 .btn:hover {
