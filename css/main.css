@@ -15,11 +15,17 @@ h2 {
   font-size: 20px;
 }
 
-button {
+.btn {
   background-color: #7A906C;
   border: none;
   color: #FFFFFF;
   border-radius: 8px;
+  text-decoration: none;
+  padding: 8px;
+}
+
+.btn:hover {
+  background-color: #5F6D55;
 }
 
 body {
