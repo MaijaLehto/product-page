@@ -15,6 +15,8 @@ body {
   margin: 0;
   font-family: "Jost", sans-serif;
   font-size: 14px;
+  padding-top: 0;
+  padding-bottom: 0;
   /* include your font family and default line-height */
 }
 
@@ -25,6 +27,7 @@ img {
 .wrapper {
   max-width: 90%;
   margin: 0 auto;
+
 }
 
 header {
@@ -60,6 +63,30 @@ header nav ul li a:focus {
 h2 {
   font-family: 'IM Fell Double Pica', serif;
   font-size: 20px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.bigpic {
+  max-width: 50%;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.pictures {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  max width: 25%;
+  margin: 0 auto;
+}
+
+.pictures:img {
+  max-width: 25px;
 }
 
 .btn {
