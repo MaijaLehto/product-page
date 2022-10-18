@@ -61,6 +61,11 @@ header nav ul li a:focus {
   width: 8rem;
 }
 
+.top {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+}
 .titleline {
   display: flex;
   align-items: center;
@@ -141,8 +146,27 @@ footer {
 /* Default styling for all screens ends here */
 
 /* Add media query for tablet */
+@media only screen and (min-wdith: 48em) {
 
+  .top {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .browse {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .quotes {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 0.5rem;
+  }
+}
 
 
 
 /* Add media query for desktop */
+@media only and screen (min-wdith: 80em) {
+
+
+}
