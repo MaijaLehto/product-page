@@ -66,6 +66,12 @@ header nav ul li a:focus {
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr;
 }
+
+.topinfo {
+display: inline-text;
+padding-bottom: 0;
+}
+
 .titleline {
   display: flex;
   align-items: center;
@@ -172,6 +178,4 @@ footer {
   .wrapper {
     max-width: 1134px;
   }
-
-
 }
