@@ -64,12 +64,10 @@ header nav ul li a:focus {
 .top {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr;
 }
 
 .topinfo {
 display: inline-text;
-padding-bottom: 0;
 }
 
 .titleline {
